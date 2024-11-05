@@ -73,11 +73,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'AZURE_POSTGRESQL_CONNECTIONSTRING',
+        'USER': 'pvgclsuwgx',
+        'PASSWORD': '16$JcypsIs6QwvvP',
+        'HOST': 'networkappivo-server.postgres.database.azure.com',
+        'PORT': '5432',
     }
 }
 
